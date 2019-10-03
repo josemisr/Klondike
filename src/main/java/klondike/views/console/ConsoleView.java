@@ -10,7 +10,7 @@ public class ConsoleView extends View {
     private PlayMenu playMenu;
 
     public ConsoleView( MovementController movementController) {
-        super( movementController);
+        super(movementController);
         this.playMenu = new PlayMenu(this.movementController);
     }
 

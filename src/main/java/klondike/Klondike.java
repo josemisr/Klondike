@@ -16,7 +16,6 @@ public class Klondike {
         this.game = new Game();
         this.movementController = new MovementController(this.game);
         this.movementController.resume();
-
         this.view = new ConsoleView(movementController);
     }
 

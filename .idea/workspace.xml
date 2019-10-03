@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb677894-6ef2-4250-ac67-7cb5def61db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/klondike.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/klondike/controllers/MovementController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/klondike/Klondike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/Klondike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/controllers/MoveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/controllers/MovementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/controllers/ResumeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/controllers/StartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/PlayMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/menu/PlayMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/Klondike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/Klondike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/controllers/MoveController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/controllers/ResumeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/controllers/StartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/views/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/views/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/views/console/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/views/console/ConsoleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/Movement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/PlayMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/klondike/views/console/menu/PlayMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/FoundationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/FoundationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/klondike/views/console/WasteView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/klondike/views/console/WasteView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570135749286</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cambios controladores">
+      <created>1570138175447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570138175447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cambios controladores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios controladores" />
   </component>
 </project>

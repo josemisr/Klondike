@@ -4,9 +4,9 @@ import klondike.models.Error;
 import klondike.models.Game;
 import klondike.models.Suit;
 
-public class MoveController extends Controller {
+public class MovementController extends Controller {
 
-    public MoveController(Game game) {
+    public MovementController(Game game) {
         super(game);
     }
 
@@ -42,4 +42,7 @@ public class MoveController extends Controller {
         return this.game.isFinished();
     }
 
+    public void resume() {
+        this.game.clear();
+    }
 }

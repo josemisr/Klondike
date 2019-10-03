@@ -1,16 +1,16 @@
 package klondike.views.console.menu;
 
-import klondike.controllers.MoveController;
+import klondike.controllers.MovementController;
 import klondike.models.Error;
 import klondike.utils.IO;
 
 public abstract class Command extends klondike.utils.Command {
 
-    protected MoveController moveController;
+    protected MovementController movementController;
 
-    protected Command(String title, MoveController moveController) {
+    protected Command(String title, MovementController movementController) {
         super(title);
-        this.moveController = moveController;
+        this.movementController = movementController;
     }
 
     @Override
